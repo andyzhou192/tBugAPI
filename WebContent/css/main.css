@@ -1,0 +1,109 @@
+/* 
+ * tab样式 
+ */
+ul.TabBarLevel {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 29px;
+	background-image:
+		url(/tBugApi/img/tabbar_level1_bk.gif);
+}
+
+ul.TabBarLevel li {
+	float: left;
+	padding: 0;
+	height: 29px;
+	margin-right: 1px;
+	background:
+		url(/tBugApi/img/tabbar_level1_slice_left_bk.gif)
+		left top no-repeat;
+	font-size: 9pt;
+}
+
+ul.TabBarLevel li a {
+	display: block;
+	line-height: 29px;
+	padding: 0 20px;
+	color: #333;
+	background:
+		url(/tBugApi/img/tabbar_level1_slice_right_bk.gif)
+		right top no-repeat;
+	white-space: nowrap;
+	font-size: 9pt;
+	/*font-weight: bold;*/
+}
+
+ul.TabBarLevel li.Selected {
+	background:
+		url(/tBugApi/img/tabbar_level1_slice_selected_left_bk.gif)
+		left top no-repeat;
+	font-size: 9pt;
+}
+
+ul.TabBarLevel li.Selected a {
+	background:
+		url(/tBugApi/img/tabbar_level1_slice_selected_right_bk.gif)
+		right top no-repeat;
+}
+
+ul.TabBarLevel li a:link,ul.TabBarLevel li a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+ul.TabBarLevel li a:hover,ul.TabBarLevel li a:active {
+	color: #F30;
+	text-decoration: none;
+}
+
+ul.TabBarLevel li.Selected a:link,ul.TabBarLevel li.Selected a:visited {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 9pt;
+}
+
+ul.TabBarLevel li.Selected a:hover,ul.TabBarLevel li.Selected a:active {
+	color: #000;
+	text-decoration: none;
+	font-size: 9pt;
+}
+
+div#navigation ul#navigationList li.navigationItem {
+	 list-style-type: decimal;
+}
+
+a {
+	display: block;
+	line-height: 29px;
+	padding: 0 5px;
+	color: #333;
+	white-space: nowrap;
+	font-size: 12pt;
+	/*font-weight: bold;*/
+}
+
+a:link,a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+ a:hover,a:active {
+	color: #F30;
+	text-decoration: none;
+}
+
+.pson {
+	background: url(/tBugApi/img/zhankai_button.gif) no-repeat;
+	margin-top: 2px;
+	cursor: pointer;
+	display: block;
+	width: 36px;
+	height: 16px;
+	float: right;
+}
+
+.psoff {
+	background: url(/tBugApi/img/shouqi_button.gif) no-repeat;
+}
